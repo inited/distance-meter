@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D01CD661A1E00F800666A95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D01CD651A1E00F800666A95 /* Default-568h@2x.png */; };
 		4DA4344B19E2E67500EBBBCD /* 100.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DA4344A19E2E67500EBBBCD /* 100.mp3 */; };
 		4DA4344D19E2E68100EBBBCD /* 101.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DA4344C19E2E68100EBBBCD /* 101.mp3 */; };
 		BC897CF719DDD0AA00AAB244 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CE319DDD0AA00AAB244 /* 1.mp3 */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D01CD651A1E00F800666A95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4DA4344A19E2E67500EBBBCD /* 100.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 100.mp3; sourceTree = "<group>"; };
 		4DA4344C19E2E68100EBBBCD /* 101.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 101.mp3; sourceTree = "<group>"; };
 		BC897CE319DDD0AA00AAB244 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		BCFB099D19DC35AB0041B87F = {
 			isa = PBXGroup;
 			children = (
+				4D01CD651A1E00F800666A95 /* Default-568h@2x.png */,
 				BCFB09A819DC35AB0041B87F /* distance-tracker */,
 				BCFB09A719DC35AB0041B87F /* Products */,
 			);
@@ -236,7 +239,7 @@
 				TargetAttributes = {
 					BCFB09A519DC35AB0041B87F = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = 9G72893622;
+						DevelopmentTeam = 23MR53TY67;
 					};
 					BCFB09BE19DC35AB0041B87F = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -274,6 +277,7 @@
 				BC897CF819DDD0AA00AAB244 /* 2.mp3 in Resources */,
 				BC897CFD19DDD0AA00AAB244 /* 7.mp3 in Resources */,
 				BC897CF719DDD0AA00AAB244 /* 1.mp3 in Resources */,
+				4D01CD661A1E00F800666A95 /* Default-568h@2x.png in Resources */,
 				BC897CFC19DDD0AA00AAB244 /* 6.mp3 in Resources */,
 				BC897D0819DDD0AA00AAB244 /* 18.mp3 in Resources */,
 				BC897CF919DDD0AA00AAB244 /* 3.mp3 in Resources */,
