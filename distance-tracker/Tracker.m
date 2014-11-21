@@ -22,7 +22,24 @@
 #define GPS_3_LONGITUDE             14.415009
 */
 
+/* SADA A */
+//Krcma u Pavouka:
+#define GPS_1_LATITUDE              50.087180
+#define GPS_1_LONGITUDE             14.424612
 
+//U Bakarare, restaurace:
+#define GPS_2_LATITUDE              50.087174
+#define GPS_2_LONGITUDE             14.424025
+
+//Swarowski obchod:
+#define GPS_3_LATITUDE              50.087215
+#define GPS_3_LONGITUDE             14.423308
+
+//Celetná 556/8
+#define GPS_4_LATITUDE              50.087262
+#define GPS_4_LONGITUDE             14.422949
+
+/* SADA B
 //Pařížská (u st.synagogy):
 #define GPS_1_LATITUDE              50.089983
 #define GPS_1_LONGITUDE             14.418854
@@ -38,7 +55,7 @@
 //U starého hřbitova:
 #define GPS_4_LATITUDE              50.090000
 #define GPS_4_LONGITUDE             14.417188
-
+*/
 
 // Omezení
 #define DISTANCE_CAP                    20.0          // V metrech
