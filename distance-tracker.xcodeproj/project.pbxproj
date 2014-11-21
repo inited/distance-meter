@@ -193,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BCFB09A519DC35AB0041B87F /* distance-tracker */ = {
+		BCFB09A519DC35AB0041B87F /* Distance tracker A */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCFB09C919DC35AB0041B87F /* Build configuration list for PBXNativeTarget "distance-tracker" */;
+			buildConfigurationList = BCFB09C919DC35AB0041B87F /* Build configuration list for PBXNativeTarget "Distance tracker A" */;
 			buildPhases = (
 				BCFB09A219DC35AB0041B87F /* Sources */,
 				BCFB09A319DC35AB0041B87F /* Frameworks */,
@@ -205,7 +205,7 @@
 			);
 			dependencies = (
 			);
-			name = "distance-tracker";
+			name = "Distance tracker A";
 			productName = "distance-tracker";
 			productReference = BCFB09A619DC35AB0041B87F /* distance-tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -261,7 +261,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCFB09A519DC35AB0041B87F /* distance-tracker */,
+				BCFB09A519DC35AB0041B87F /* Distance tracker A */,
 				BCFB09BE19DC35AB0041B87F /* distance-trackerTests */,
 			);
 		};
@@ -332,7 +332,7 @@
 /* Begin PBXTargetDependency section */
 		BCFB09C119DC35AB0041B87F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BCFB09A519DC35AB0041B87F /* distance-tracker */;
+			target = BCFB09A519DC35AB0041B87F /* Distance tracker A */;
 			targetProxy = BCFB09C019DC35AB0041B87F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -495,7 +495,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCFB09C919DC35AB0041B87F /* Build configuration list for PBXNativeTarget "distance-tracker" */ = {
+		BCFB09C919DC35AB0041B87F /* Build configuration list for PBXNativeTarget "Distance tracker A" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCFB09CA19DC35AB0041B87F /* Debug */,
