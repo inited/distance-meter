@@ -3,7 +3,7 @@
 //  distance-tracker
 //
 //  Created by Adam Zikmund on 01.10.14.
-//  Copyright (c) 2014 Adam Zikmund. All rights reserved.
+//  Copyright (c) 2014 Adam Zikmund, INITED Solutions s.r.o. All rights reserved.
 //
 
 #import "Tracker.h"
@@ -11,6 +11,7 @@
 // Pro zjištování GPS pozic používám tento nástroj http://itouchmap.com/latlong.html
 
 // GPS lokace
+/* test - Karlovo namesti
 #define GPS_1_LATITUDE              50.074433
 #define GPS_1_LONGITUDE             14.419652
 
@@ -19,6 +20,24 @@
 
 #define GPS_3_LATITUDE              50.074607
 #define GPS_3_LONGITUDE             14.415009
+*/
+
+
+//Pařížská (u st.synagogy):
+#define GPS_1_LATITUDE              50.089983
+#define GPS_1_LONGITUDE             14.418854
+
+//Červená (před st.synagogou):
+#define GPS_2_LATITUDE              50.089964
+#define GPS_2_LONGITUDE             14.418524
+
+//U starého hřbitova:
+#define GPS_3_LATITUDE              50.089988
+#define GPS_3_LONGITUDE             14.417709
+
+//U starého hřbitova:
+#define GPS_4_LATITUDE              50.090000
+#define GPS_4_LONGITUDE             14.417188
 
 
 // Omezení
@@ -41,14 +60,16 @@
     if (self) {
         _locations = [NSArray arrayWithObjects:
                      [[CLLocation alloc] initWithLatitude:GPS_1_LATITUDE longitude:GPS_1_LONGITUDE],
-//                     [[CLLocation alloc] initWithLatitude:GPS_2_LATITUDE longitude:GPS_2_LONGITUDE],
-//                     [[CLLocation alloc] initWithLatitude:GPS_3_LATITUDE longitude:GPS_3_LONGITUDE],
+                     [[CLLocation alloc] initWithLatitude:GPS_2_LATITUDE longitude:GPS_2_LONGITUDE],
+                     [[CLLocation alloc] initWithLatitude:GPS_3_LATITUDE longitude:GPS_3_LONGITUDE],
+                     [[CLLocation alloc] initWithLatitude:GPS_4_LATITUDE longitude:GPS_4_LONGITUDE],
                       nil];
         
         _regions = [NSArray arrayWithObjects:
                     [[CLRegion alloc] initCircularRegionWithCenter:CLLocationCoordinate2DMake(GPS_1_LATITUDE, GPS_1_LONGITUDE) radius:REGION_DISTANCE_RAIDUS identifier:@"Region 1"],
-//                    [[CLRegion alloc] initCircularRegionWithCenter:CLLocationCoordinate2DMake(GPS_2_LATITUDE, GPS_2_LONGITUDE) radius:REGION_DISTANCE_RAIDUS identifier:@"Region 2"],
-//                    [[CLRegion alloc] initCircularRegionWithCenter:CLLocationCoordinate2DMake(GPS_3_LATITUDE, GPS_3_LONGITUDE) radius:REGION_DISTANCE_RAIDUS identifier:@"Region 3"],
+                    [[CLRegion alloc] initCircularRegionWithCenter:CLLocationCoordinate2DMake(GPS_2_LATITUDE, GPS_2_LONGITUDE) radius:REGION_DISTANCE_RAIDUS identifier:@"Region 2"],
+                    [[CLRegion alloc] initCircularRegionWithCenter:CLLocationCoordinate2DMake(GPS_3_LATITUDE, GPS_3_LONGITUDE) radius:REGION_DISTANCE_RAIDUS identifier:@"Region 3"],
+                    [[CLRegion alloc] initCircularRegionWithCenter:CLLocationCoordinate2DMake(GPS_3_LATITUDE, GPS_4_LONGITUDE) radius:REGION_DISTANCE_RAIDUS identifier:@"Region 4"],
                     nil];
         
         [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
