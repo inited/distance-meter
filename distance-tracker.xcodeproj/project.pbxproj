@@ -8,6 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		4D01CD661A1E00F800666A95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D01CD651A1E00F800666A95 /* Default-568h@2x.png */; };
+		4D4BE4381A1F2BA90078503A /* Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFB09D019DC36700041B87F /* Tracker.m */; };
+		4D4BE4391A1F2BA90078503A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFB09B119DC35AB0041B87F /* ViewController.m */; };
+		4D4BE43A1A1F2BA90078503A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFB09AE19DC35AB0041B87F /* AppDelegate.m */; };
+		4D4BE43B1A1F2BA90078503A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFB09AB19DC35AB0041B87F /* main.m */; };
+		4D4BE43D1A1F2BA90078503A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFB09D719DC41A30041B87F /* AVFoundation.framework */; };
+		4D4BE43E1A1F2BA90078503A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFB09D319DC36B30041B87F /* CoreLocation.framework */; };
+		4D4BE4401A1F2BA90078503A /* 12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CEE19DDD0AA00AAB244 /* 12.mp3 */; };
+		4D4BE4411A1F2BA90078503A /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CE719DDD0AA00AAB244 /* 5.mp3 */; };
+		4D4BE4421A1F2BA90078503A /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CE419DDD0AA00AAB244 /* 2.mp3 */; };
+		4D4BE4431A1F2BA90078503A /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CE919DDD0AA00AAB244 /* 7.mp3 */; };
+		4D4BE4441A1F2BA90078503A /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CE319DDD0AA00AAB244 /* 1.mp3 */; };
+		4D4BE4451A1F2BA90078503A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D01CD651A1E00F800666A95 /* Default-568h@2x.png */; };
+		4D4BE4461A1F2BA90078503A /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CE819DDD0AA00AAB244 /* 6.mp3 */; };
+		4D4BE4471A1F2BA90078503A /* 18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CF419DDD0AA00AAB244 /* 18.mp3 */; };
+		4D4BE4481A1F2BA90078503A /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CE519DDD0AA00AAB244 /* 3.mp3 */; };
+		4D4BE4491A1F2BA90078503A /* 100.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DA4344A19E2E67500EBBBCD /* 100.mp3 */; };
+		4D4BE44A1A1F2BA90078503A /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CEA19DDD0AA00AAB244 /* 8.mp3 */; };
+		4D4BE44B1A1F2BA90078503A /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CEC19DDD0AA00AAB244 /* 10.mp3 */; };
+		4D4BE44C1A1F2BA90078503A /* 19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CF519DDD0AA00AAB244 /* 19.mp3 */; };
+		4D4BE44D1A1F2BA90078503A /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CE619DDD0AA00AAB244 /* 4.mp3 */; };
+		4D4BE44E1A1F2BA90078503A /* 15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CF119DDD0AA00AAB244 /* 15.mp3 */; };
+		4D4BE44F1A1F2BA90078503A /* 14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CF019DDD0AA00AAB244 /* 14.mp3 */; };
+		4D4BE4501A1F2BA90078503A /* 13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CEF19DDD0AA00AAB244 /* 13.mp3 */; };
+		4D4BE4511A1F2BA90078503A /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CEB19DDD0AA00AAB244 /* 9.mp3 */; };
+		4D4BE4521A1F2BA90078503A /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CED19DDD0AA00AAB244 /* 11.mp3 */; };
+		4D4BE4531A1F2BA90078503A /* 101.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DA4344C19E2E68100EBBBCD /* 101.mp3 */; };
+		4D4BE4541A1F2BA90078503A /* 16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CF219DDD0AA00AAB244 /* 16.mp3 */; };
+		4D4BE4551A1F2BA90078503A /* 20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CF619DDD0AA00AAB244 /* 20.mp3 */; };
+		4D4BE4561A1F2BA90078503A /* 17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CF319DDD0AA00AAB244 /* 17.mp3 */; };
+		4D4BE4571A1F2BA90078503A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFB09B319DC35AB0041B87F /* Main.storyboard */; };
 		4DA4344B19E2E67500EBBBCD /* 100.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DA4344A19E2E67500EBBBCD /* 100.mp3 */; };
 		4DA4344D19E2E68100EBBBCD /* 101.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DA4344C19E2E68100EBBBCD /* 101.mp3 */; };
 		BC897CF719DDD0AA00AAB244 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC897CE319DDD0AA00AAB244 /* 1.mp3 */; };
@@ -51,6 +81,8 @@
 
 /* Begin PBXFileReference section */
 		4D01CD651A1E00F800666A95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D4BE45B1A1F2BA90078503A /* Distance tracker B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Distance tracker B.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4BE45C1A1F2BA90078503A /* Distance tracker B-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Distance tracker B-Info.plist"; path = "/Users/jara/Desktop/distance-tracker 2/Distance tracker B-Info.plist"; sourceTree = "<absolute>"; };
 		4DA4344A19E2E67500EBBBCD /* 100.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 100.mp3; sourceTree = "<group>"; };
 		4DA4344C19E2E68100EBBBCD /* 101.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 101.mp3; sourceTree = "<group>"; };
 		BC897CE319DDD0AA00AAB244 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
@@ -73,7 +105,7 @@
 		BC897CF419DDD0AA00AAB244 /* 18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 18.mp3; sourceTree = "<group>"; };
 		BC897CF519DDD0AA00AAB244 /* 19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 19.mp3; sourceTree = "<group>"; };
 		BC897CF619DDD0AA00AAB244 /* 20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 20.mp3; sourceTree = "<group>"; };
-		BCFB09A619DC35AB0041B87F /* distance-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "distance-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFB09A619DC35AB0041B87F /* Distance tracker A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Distance tracker A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFB09AA19DC35AB0041B87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFB09AB19DC35AB0041B87F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCFB09AD19DC35AB0041B87F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +121,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4D4BE43C1A1F2BA90078503A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4BE43D1A1F2BA90078503A /* AVFoundation.framework in Frameworks */,
+				4D4BE43E1A1F2BA90078503A /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCFB09A319DC35AB0041B87F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,14 +184,16 @@
 				4D01CD651A1E00F800666A95 /* Default-568h@2x.png */,
 				BCFB09A819DC35AB0041B87F /* distance-tracker */,
 				BCFB09A719DC35AB0041B87F /* Products */,
+				4D4BE45C1A1F2BA90078503A /* Distance tracker B-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		BCFB09A719DC35AB0041B87F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCFB09A619DC35AB0041B87F /* distance-tracker.app */,
+				BCFB09A619DC35AB0041B87F /* Distance tracker A.app */,
 				BCFB09BF19DC35AB0041B87F /* distance-trackerTests.xctest */,
+				4D4BE45B1A1F2BA90078503A /* Distance tracker B.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +236,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4D4BE4361A1F2BA90078503A /* Distance tracker B */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4BE4581A1F2BA90078503A /* Build configuration list for PBXNativeTarget "Distance tracker B" */;
+			buildPhases = (
+				4D4BE4371A1F2BA90078503A /* Sources */,
+				4D4BE43C1A1F2BA90078503A /* Frameworks */,
+				4D4BE43F1A1F2BA90078503A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Distance tracker B";
+			productName = "distance-tracker";
+			productReference = 4D4BE45B1A1F2BA90078503A /* Distance tracker B.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BCFB09A519DC35AB0041B87F /* Distance tracker A */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCFB09C919DC35AB0041B87F /* Build configuration list for PBXNativeTarget "Distance tracker A" */;
@@ -207,7 +267,7 @@
 			);
 			name = "Distance tracker A";
 			productName = "distance-tracker";
-			productReference = BCFB09A619DC35AB0041B87F /* distance-tracker.app */;
+			productReference = BCFB09A619DC35AB0041B87F /* Distance tracker A.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BCFB09BE19DC35AB0041B87F /* distance-trackerTests */ = {
@@ -237,6 +297,9 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Adam Zikmund";
 				TargetAttributes = {
+					4D4BE4361A1F2BA90078503A = {
+						DevelopmentTeam = 23MR53TY67;
+					};
 					BCFB09A519DC35AB0041B87F = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = 23MR53TY67;
@@ -263,11 +326,43 @@
 			targets = (
 				BCFB09A519DC35AB0041B87F /* Distance tracker A */,
 				BCFB09BE19DC35AB0041B87F /* distance-trackerTests */,
+				4D4BE4361A1F2BA90078503A /* Distance tracker B */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4D4BE43F1A1F2BA90078503A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4BE4401A1F2BA90078503A /* 12.mp3 in Resources */,
+				4D4BE4411A1F2BA90078503A /* 5.mp3 in Resources */,
+				4D4BE4421A1F2BA90078503A /* 2.mp3 in Resources */,
+				4D4BE4431A1F2BA90078503A /* 7.mp3 in Resources */,
+				4D4BE4441A1F2BA90078503A /* 1.mp3 in Resources */,
+				4D4BE4451A1F2BA90078503A /* Default-568h@2x.png in Resources */,
+				4D4BE4461A1F2BA90078503A /* 6.mp3 in Resources */,
+				4D4BE4471A1F2BA90078503A /* 18.mp3 in Resources */,
+				4D4BE4481A1F2BA90078503A /* 3.mp3 in Resources */,
+				4D4BE4491A1F2BA90078503A /* 100.mp3 in Resources */,
+				4D4BE44A1A1F2BA90078503A /* 8.mp3 in Resources */,
+				4D4BE44B1A1F2BA90078503A /* 10.mp3 in Resources */,
+				4D4BE44C1A1F2BA90078503A /* 19.mp3 in Resources */,
+				4D4BE44D1A1F2BA90078503A /* 4.mp3 in Resources */,
+				4D4BE44E1A1F2BA90078503A /* 15.mp3 in Resources */,
+				4D4BE44F1A1F2BA90078503A /* 14.mp3 in Resources */,
+				4D4BE4501A1F2BA90078503A /* 13.mp3 in Resources */,
+				4D4BE4511A1F2BA90078503A /* 9.mp3 in Resources */,
+				4D4BE4521A1F2BA90078503A /* 11.mp3 in Resources */,
+				4D4BE4531A1F2BA90078503A /* 101.mp3 in Resources */,
+				4D4BE4541A1F2BA90078503A /* 16.mp3 in Resources */,
+				4D4BE4551A1F2BA90078503A /* 20.mp3 in Resources */,
+				4D4BE4561A1F2BA90078503A /* 17.mp3 in Resources */,
+				4D4BE4571A1F2BA90078503A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCFB09A419DC35AB0041B87F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,6 +404,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4D4BE4371A1F2BA90078503A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4BE4381A1F2BA90078503A /* Tracker.m in Sources */,
+				4D4BE4391A1F2BA90078503A /* ViewController.m in Sources */,
+				4D4BE43A1A1F2BA90078503A /* AppDelegate.m in Sources */,
+				4D4BE43B1A1F2BA90078503A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCFB09A219DC35AB0041B87F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,6 +455,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4D4BE4591A1F2BA90078503A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Distance tracker B-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Distance tracker B";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D4BE45A1A1F2BA90078503A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Distance tracker B-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Distance tracker B";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		BCFB09C719DC35AB0041B87F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -383,7 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -418,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -486,6 +616,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4D4BE4581A1F2BA90078503A /* Build configuration list for PBXNativeTarget "Distance tracker B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4BE4591A1F2BA90078503A /* Debug */,
+				4D4BE45A1A1F2BA90078503A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BCFB09A119DC35AB0041B87F /* Build configuration list for PBXProject "distance-tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>cz.inited.distance-tracker</string>
+	<string>cz.inited.distance-tracker-b</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -43,6 +43,6 @@
     <string>This application requires location services to work.</string>
     <key>NSLocationAlwaysUsageDescription</key>
     <string>This application requires location services to work.</string>
-
+    
 </dict>
 </plist>

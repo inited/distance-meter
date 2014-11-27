@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BCFB09A519DC35AB0041B87F"
-               BuildableName = "distance-tracker.app"
-               BlueprintName = "distance-tracker"
+               BuildableName = "Distance tracker A.app"
+               BlueprintName = "Distance tracker A"
                ReferencedContainer = "container:distance-tracker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -57,8 +57,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BCFB09A519DC35AB0041B87F"
-            BuildableName = "distance-tracker.app"
-            BlueprintName = "distance-tracker"
+            BuildableName = "Distance tracker A.app"
+            BlueprintName = "Distance tracker A"
             ReferencedContainer = "container:distance-tracker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BCFB09A519DC35AB0041B87F"
-            BuildableName = "distance-tracker.app"
-            BlueprintName = "distance-tracker"
+            BuildableName = "Distance tracker A.app"
+            BlueprintName = "Distance tracker A"
             ReferencedContainer = "container:distance-tracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,8 +94,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BCFB09A519DC35AB0041B87F"
-            BuildableName = "distance-tracker.app"
-            BlueprintName = "distance-tracker"
+            BuildableName = "Distance tracker A.app"
+            BlueprintName = "Distance tracker A"
             ReferencedContainer = "container:distance-tracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -104,7 +104,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

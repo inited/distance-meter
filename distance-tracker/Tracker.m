@@ -22,7 +22,7 @@
 #define GPS_3_LONGITUDE             14.415009
 */
 
-/* SADA A */
+/* SADA A
 //Krcma u Pavouka:
 #define GPS_1_LATITUDE              50.087180
 #define GPS_1_LONGITUDE             14.424612
@@ -38,8 +38,9 @@
 //Celetná 556/8
 #define GPS_4_LATITUDE              50.087262
 #define GPS_4_LONGITUDE             14.422949
+*/
 
-/* SADA B
+/* SADA B */
 //Pařížská (u st.synagogy):
 #define GPS_1_LATITUDE              50.089983
 #define GPS_1_LONGITUDE             14.418854
@@ -55,7 +56,7 @@
 //U starého hřbitova:
 #define GPS_4_LATITUDE              50.090000
 #define GPS_4_LONGITUDE             14.417188
-*/
+
 
 // Omezení
 #define DISTANCE_CAP                    20.0          // V metrech
@@ -96,6 +97,12 @@
         _audioPlayer = [[AVAudioPlayer alloc] init];
         
         _locationManager = [[CLLocationManager alloc] init];
+        
+        if([_locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {
+            [_locationManager requestAlwaysAuthorization];
+        }
+        
+        
         [_locationManager setDelegate:self];
         [_locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
         [_locationManager setDistanceFilter:kCLDistanceFilterNone];
