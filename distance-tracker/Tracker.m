@@ -11,18 +11,24 @@
 // Pro zjištování GPS pozic používám tento nástroj http://itouchmap.com/latlong.html
 
 // GPS lokace
-/* test - Karlovo namesti
-#define GPS_1_LATITUDE              50.074433
-#define GPS_1_LONGITUDE             14.419652
+/* test - palackeho namesi 
+#define GPS_1_LATITUDE              50.073041
+#define GPS_1_LONGITUDE             14.414516
 
-#define GPS_2_LATITUDE              50.074341
-#define GPS_2_LONGITUDE             14.415998
+ // nadrazi branik
+#define GPS_2_LATITUDE              50.028585
+#define GPS_2_LONGITUDE             14.406277
 
-#define GPS_3_LATITUDE              50.074607
-#define GPS_3_LONGITUDE             14.415009
+//Swarowski obchod:
+#define GPS_3_LATITUDE              50.087215
+#define GPS_3_LONGITUDE             14.423308
+
+//Celetná 556/8
+#define GPS_4_LATITUDE              50.087262
+#define GPS_4_LONGITUDE             14.422949
 */
 
-/* SADA A
+#ifdef SADA_A
 //Krcma u Pavouka:
 #define GPS_1_LATITUDE              50.087180
 #define GPS_1_LONGITUDE             14.424612
@@ -38,9 +44,9 @@
 //Celetná 556/8
 #define GPS_4_LATITUDE              50.087262
 #define GPS_4_LONGITUDE             14.422949
-*/
+#endif
 
-/* SADA B */
+#ifdef SADA_B
 //Pařížská (u st.synagogy):
 #define GPS_1_LATITUDE              50.089983
 #define GPS_1_LONGITUDE             14.418854
@@ -56,6 +62,7 @@
 //U starého hřbitova:
 #define GPS_4_LATITUDE              50.090000
 #define GPS_4_LONGITUDE             14.417188
+#endif
 
 
 // Omezení

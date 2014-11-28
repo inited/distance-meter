@@ -69,19 +69,9 @@
 		BCFB09D919DC41AE0041B87F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFB09D719DC41A30041B87F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BCFB09C019DC35AB0041B87F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BCFB099E19DC35AB0041B87F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BCFB09A519DC35AB0041B87F;
-			remoteInfo = "distance-tracker";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		4D01CD651A1E00F800666A95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4D4BE45B1A1F2BA90078503A /* Distance tracker B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Distance tracker B.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4BE45B1A1F2BA90078503A /* Sada B - Parizska.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sada B - Parizska.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4BE45C1A1F2BA90078503A /* Distance tracker B-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Distance tracker B-Info.plist"; path = "/Users/jara/Desktop/distance-tracker 2/Distance tracker B-Info.plist"; sourceTree = "<absolute>"; };
 		4DA4344A19E2E67500EBBBCD /* 100.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 100.mp3; sourceTree = "<group>"; };
 		4DA4344C19E2E68100EBBBCD /* 101.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 101.mp3; sourceTree = "<group>"; };
@@ -105,7 +95,7 @@
 		BC897CF419DDD0AA00AAB244 /* 18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 18.mp3; sourceTree = "<group>"; };
 		BC897CF519DDD0AA00AAB244 /* 19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 19.mp3; sourceTree = "<group>"; };
 		BC897CF619DDD0AA00AAB244 /* 20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 20.mp3; sourceTree = "<group>"; };
-		BCFB09A619DC35AB0041B87F /* Distance tracker A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Distance tracker A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFB09A619DC35AB0041B87F /* Sada A - Celetna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sada A - Celetna.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFB09AA19DC35AB0041B87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFB09AB19DC35AB0041B87F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCFB09AD19DC35AB0041B87F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,7 +103,6 @@
 		BCFB09B019DC35AB0041B87F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BCFB09B119DC35AB0041B87F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BCFB09B419DC35AB0041B87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BCFB09BF19DC35AB0041B87F /* distance-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "distance-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFB09CF19DC36700041B87F /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
 		BCFB09D019DC36700041B87F /* Tracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tracker.m; sourceTree = "<group>"; };
 		BCFB09D319DC36B30041B87F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -136,13 +125,6 @@
 			files = (
 				BCFB09D919DC41AE0041B87F /* AVFoundation.framework in Frameworks */,
 				BCFB09D419DC36B30041B87F /* CoreLocation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCFB09BC19DC35AB0041B87F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,9 +173,8 @@
 		BCFB09A719DC35AB0041B87F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCFB09A619DC35AB0041B87F /* Distance tracker A.app */,
-				BCFB09BF19DC35AB0041B87F /* distance-trackerTests.xctest */,
-				4D4BE45B1A1F2BA90078503A /* Distance tracker B.app */,
+				BCFB09A619DC35AB0041B87F /* Sada A - Celetna.app */,
+				4D4BE45B1A1F2BA90078503A /* Sada B - Parizska.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,9 +217,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D4BE4361A1F2BA90078503A /* Distance tracker B */ = {
+		4D4BE4361A1F2BA90078503A /* Sada B - Parizska */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D4BE4581A1F2BA90078503A /* Build configuration list for PBXNativeTarget "Distance tracker B" */;
+			buildConfigurationList = 4D4BE4581A1F2BA90078503A /* Build configuration list for PBXNativeTarget "Sada B - Parizska" */;
 			buildPhases = (
 				4D4BE4371A1F2BA90078503A /* Sources */,
 				4D4BE43C1A1F2BA90078503A /* Frameworks */,
@@ -248,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = "Distance tracker B";
+			name = "Sada B - Parizska";
 			productName = "distance-tracker";
-			productReference = 4D4BE45B1A1F2BA90078503A /* Distance tracker B.app */;
+			productReference = 4D4BE45B1A1F2BA90078503A /* Sada B - Parizska.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BCFB09A519DC35AB0041B87F /* Distance tracker A */ = {
+		BCFB09A519DC35AB0041B87F /* Sada A - Celetna */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCFB09C919DC35AB0041B87F /* Build configuration list for PBXNativeTarget "Distance tracker A" */;
+			buildConfigurationList = BCFB09C919DC35AB0041B87F /* Build configuration list for PBXNativeTarget "Sada A - Celetna" */;
 			buildPhases = (
 				BCFB09A219DC35AB0041B87F /* Sources */,
 				BCFB09A319DC35AB0041B87F /* Frameworks */,
@@ -265,28 +246,10 @@
 			);
 			dependencies = (
 			);
-			name = "Distance tracker A";
+			name = "Sada A - Celetna";
 			productName = "distance-tracker";
-			productReference = BCFB09A619DC35AB0041B87F /* Distance tracker A.app */;
+			productReference = BCFB09A619DC35AB0041B87F /* Sada A - Celetna.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BCFB09BE19DC35AB0041B87F /* distance-trackerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BCFB09CC19DC35AB0041B87F /* Build configuration list for PBXNativeTarget "distance-trackerTests" */;
-			buildPhases = (
-				BCFB09BB19DC35AB0041B87F /* Sources */,
-				BCFB09BC19DC35AB0041B87F /* Frameworks */,
-				BCFB09BD19DC35AB0041B87F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BCFB09C119DC35AB0041B87F /* PBXTargetDependency */,
-			);
-			name = "distance-trackerTests";
-			productName = "distance-trackerTests";
-			productReference = BCFB09BF19DC35AB0041B87F /* distance-trackerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -304,11 +267,6 @@
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = 23MR53TY67;
 					};
-					BCFB09BE19DC35AB0041B87F = {
-						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = 9G72893622;
-						TestTargetID = BCFB09A519DC35AB0041B87F;
-					};
 				};
 			};
 			buildConfigurationList = BCFB09A119DC35AB0041B87F /* Build configuration list for PBXProject "distance-tracker" */;
@@ -324,9 +282,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCFB09A519DC35AB0041B87F /* Distance tracker A */,
-				BCFB09BE19DC35AB0041B87F /* distance-trackerTests */,
-				4D4BE4361A1F2BA90078503A /* Distance tracker B */,
+				BCFB09A519DC35AB0041B87F /* Sada A - Celetna */,
+				4D4BE4361A1F2BA90078503A /* Sada B - Parizska */,
 			);
 		};
 /* End PBXProject section */
@@ -394,13 +351,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCFB09BD19DC35AB0041B87F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -426,22 +376,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCFB09BB19DC35AB0041B87F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BCFB09C119DC35AB0041B87F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BCFB09A519DC35AB0041B87F /* Distance tracker A */;
-			targetProxy = BCFB09C019DC35AB0041B87F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BCFB09B319DC35AB0041B87F /* Main.storyboard */ = {
@@ -459,10 +394,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"DEBUG=1",
+					"SADA_B=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "Distance tracker B-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Distance tracker B";
+				PRODUCT_NAME = "Sada B - Parizska";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -471,10 +411,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "SADA_B=1";
 				INFOPLIST_FILE = "Distance tracker B-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Distance tracker B";
+				PRODUCT_NAME = "Sada B - Parizska";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -559,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = SADA_A;
 				INFOPLIST_FILE = "distance-tracker/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -571,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = SADA_A;
 				INFOPLIST_FILE = "distance-tracker/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -579,44 +522,10 @@
 			};
 			name = Release;
 		};
-		BCFB09CD19DC35AB0041B87F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "distance-trackerTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/distance-tracker.app/distance-tracker";
-			};
-			name = Debug;
-		};
-		BCFB09CE19DC35AB0041B87F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "distance-trackerTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/distance-tracker.app/distance-tracker";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D4BE4581A1F2BA90078503A /* Build configuration list for PBXNativeTarget "Distance tracker B" */ = {
+		4D4BE4581A1F2BA90078503A /* Build configuration list for PBXNativeTarget "Sada B - Parizska" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D4BE4591A1F2BA90078503A /* Debug */,
@@ -634,20 +543,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCFB09C919DC35AB0041B87F /* Build configuration list for PBXNativeTarget "Distance tracker A" */ = {
+		BCFB09C919DC35AB0041B87F /* Build configuration list for PBXNativeTarget "Sada A - Celetna" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCFB09CA19DC35AB0041B87F /* Debug */,
 				BCFB09CB19DC35AB0041B87F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BCFB09CC19DC35AB0041B87F /* Build configuration list for PBXNativeTarget "distance-trackerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BCFB09CD19DC35AB0041B87F /* Debug */,
-				BCFB09CE19DC35AB0041B87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -43,7 +43,12 @@
     _distance.text = @"Tracking started";
 }
 - (void)distanceMeasured:(double)distance{
-    _distance.text = [NSString stringWithFormat:@"%i meters", (int)round(distance)];
+#ifdef SADA_A
+    _distance.text = [NSString stringWithFormat:@"Sada A: %i meters", (int)round(distance)];
+#endif
+#ifdef SADA_B
+    _distance.text = [NSString stringWithFormat:@"Sada B: %i meters", (int)round(distance)];
+#endif
 }
 
 - (void)didEnterRegion:(CLRegion *)region{
